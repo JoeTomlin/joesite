@@ -4,7 +4,7 @@ import "./LeftScreen.css";
 const Left = () => {
 
     return (
-        <div>
+        <div className='leftSide'>
             <h1 className='h1'>JOE TOMLIN</h1>
             <h3 className='h3'>Full Stack Software Engineer</h3>
             <div>

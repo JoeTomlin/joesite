@@ -6,10 +6,18 @@
   font-family: "verdana", sans-serif;
 }
 
+.body {
+  display: flex;
+}
+
+.rightSide {
+  padding-left: 80px;
+}
+
 /* background-color: #011b4f;
 background-color: #59002e; */
 
-.logo:hover {
+/* .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
@@ -29,4 +37,4 @@ background-color: #59002e; */
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
+} */
