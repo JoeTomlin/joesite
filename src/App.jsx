@@ -1,7 +1,7 @@
-import { useState } from 'react'
 import './App.css'
 import Left from './components/LeftScreen'
 import About from './components/About'
+import Projects from './components/Projects'
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
           <Left/>
         <div className='rightSide'>
           <About/>
+          <Projects/>
         </div>
       </div>
     </>

@@ -14,7 +14,7 @@ const Left = () => {
                 <a href="https://www.linkedin.com/in/josephtomlin/" className='icon'><img src="src/images/linkedin_logo.png" alt="Joe's LinkedIn" className='icon' /></a>
                 <a href="https://www.instagram.com/jouktomlin/" className='icon'><img src="src/images/instagram_logo.png" alt="Joe's Insta" className='icon'/></a>
             </div>
-            <img className='profile' src="src/images/joe_profile_pic.jpeg" alt="Pic of Joe" />
+            <img className='profile' src="src/images/joe_dotted.png" alt="Pic of Joe" />
         </div>
     )
 }

@@ -1,10 +1,7 @@
-* {
-    background-color: #381d36;
-}
-
 .leftSide {
     padding-right: 50px;
     padding-left: 37px;
+    background-color: #381d36;
 }
 
 .h1 {
@@ -28,6 +25,5 @@
 .profile {
     width: 350px;
     height: 350px;
-    border-radius: 200px 200px 200px 200px;
-    margin-top: 30px;
+    margin-top: 10px;
 }

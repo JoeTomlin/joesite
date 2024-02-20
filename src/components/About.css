@@ -1,7 +1,12 @@
+.aboutCard {
+    background-color: #381d36;
+    padding-bottom: 15px;
+}
 
 .h2 {
     margin-top: 0px;
     margin-bottom: 15px;
+    padding-top: 30px;
 }
 
 .h3 {

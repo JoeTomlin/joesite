@@ -4,7 +4,7 @@ import "./About.css";
 const About = () => {
 
     return (
-        <div>
+        <div className='aboutCard'>
             <h2 className='h2'>THE STORY SO FAR</h2>
             <h3 className='h3'>I actually like learning</h3>
             <p>" I wasn't always a software engineer. When I graduated from 
