@@ -9,6 +9,12 @@
   display: flex;
 }
 
+.leftSide {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 .rightSide {
   padding-left: 80px;
 }

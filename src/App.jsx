@@ -9,7 +9,9 @@ function App() {
   return (
     <>
       <div className='body'>
-          <Left/>
+        <div className='leftSide'>
+        <Left/>
+        </div>
         <div className='rightSide'>
           <About/>
           <Projects/>

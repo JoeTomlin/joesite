@@ -12,7 +12,7 @@ const Projects = () => {
             <div>
                 <h3>POKESHELTER</h3>
                 <img src="" alt="" />
-                <p></p>
+                <p>A collaborative project that pulls from PokeAPI to allow users to "adopt" pokemon</p>
                 <div className='tools'>
                     <p className='tool' >JavaScript</p>
                     <p className='tool'>React</p>
