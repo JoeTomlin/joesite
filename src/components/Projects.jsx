@@ -4,12 +4,12 @@ import "./Projects.css";
 const Projects = () => {
 
     return (
-        <div className='projectsCard'>
+        <div className='projects'>
             <div>
                 <h2 className='h2'>PROJECTS</h2>
                 <h3 className='h3'>I know Full Stack Python and JavaScript</h3>
             </div>
-            <div>
+            <div className='projectCard'>
                 <h3>POKESHELTER</h3>
                 <img src="" alt="" />
                 <p>A collaborative project that pulls from PokeAPI to allow users to "adopt" pokemon</p>
@@ -26,7 +26,7 @@ const Projects = () => {
                     <p className='tool'>Material-UI</p>
                 </div>
             </div>
-            <div>
+            <div className='projectCard'>
                 <h3>ENSAVE</h3>
                 <img src="" alt="" />
                 <p></p>

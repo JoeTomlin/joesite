@@ -1,4 +1,4 @@
-.projectsCard {
+.projects {
     background-color: #011b4f
 }
 
@@ -11,6 +11,10 @@
     font-style: italic;
     margin-top: 0px;
     margin-bottom: 15px;
+}
+
+.projectCard {
+    padding-top: 15px;
 }
 
 .tools {

@@ -7,27 +7,14 @@ const About = () => {
         <div className='aboutCard'>
             <h2 className='h2'>THE STORY SO FAR</h2>
             <h3 className='h3'>I actually like learning</h3>
-            <p>" I wasn't always a software engineer. When I graduated from 
-                <br/>UC Berkeley in 2018, I looked for roles in the Entertainment 
-                <br/>industry and found a job as a Publicity Coordinator managing Red 
-                <br/>Carpet Events and early screenings for Universal and Paramount 
-                <br/>Pictures.
-                <br/>
-                <br/>I then transitioned into an Account Manager role at a startup
-                <br/>focused on building consumer products made from sustainable materials.
-                <br/>I managed over 500 wholesale accounts across the US and spoke to
-                <br/>customers about their needs.
-                <br/>
-                <br/>During the pandemic, I found new work at a SaaS startup called
-                <br/>Deputy.com. Their product is a scheduling software that can be modified
-                <br/>and scaled to their business client's needs. I got to work hands on with
-                <br/>Customers, Solutions Architects, and Products Managers, bridging the 
-                <br/>gap between clients and developers but listening, learning, and effectively
-                <br/>communicating customer needs.
-                <br/>
-                <br/>My time at Deputy taught me what I truly value, learning. I especially
-                <br/>love learning stuff that I don't already know. I didn't know what an Open
-                <br/>API and why that mattered for different systems." 
+            <p>" I wasn't always a software engineer. In past lives I was a student at <span style={{fontWeight: "bold", fontStyle: "italic"}}>UC Berkeley</span>, a Publicity Coordinator for Universal Studios & Paramount Pictures, and even an Account Manager for a sustainable product manufacturer.
+            </p>
+            <p> During the pandemic, I took the opportunity to finally work at a <span style={{fontWeight: "bold", fontStyle: "italic"}}>SaaS startup</span>. I was hands on with customers, <span style={{fontWeight: "bold", fontStyle: "italic"}}>Solution Architects</span>, and <span style={{fontWeight: "bold", fontStyle: "italic"}}>Product Managers</span>, bridging the gap between clients and developers by listening, learning, and effectively communicating customer needs.
+            </p>
+            <p> My time in SaaS taught me what I truly value: <span style={{fontWeight: "bold", fontStyle: "italic"}}>learning</span>. I then taught myself <span style={{fontWeight: "bold", fontStyle: "italic"}}>Python</span> and <span style={{fontWeight: "bold", fontStyle: "italic"}}>SQL</span> and ultimately took the leap to certification in <span style={{fontWeight: "bold", fontStyle: "italic"}}>JavaScript</span> and <span style={{fontWeight: "bold", fontStyle: "italic"}}>Python</span>. Now, I want to be the best Software Engineer I can possibly be.
+            </p>
+            <p>
+                I love working on projects that challenge me or teach me something new about data structures. I also love working with organizations that are trying to make the world a <span style={{fontWeight: "bold", fontStyle: "italic"}}>better</span> place."
             </p>
         </div>
     )
