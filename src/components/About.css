@@ -1,16 +1,10 @@
 .aboutCard {
     background-color: #011b4f;
-    padding-bottom: 15px;
 }
 
-.h2 {
-    margin-top: 0px;
-    margin-bottom: 15px;
-    padding-top: 30px;
-}
-
-.h3 {
-    font-style: italic;
-    margin-top: 0px;
-    margin-bottom: 15px;
+.aboutDot {
+    margin-top: -100px;
+    margin-bottom: -100px;
+    margin-left: -8px;
+    width: 400px;
 }

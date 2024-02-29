@@ -5,7 +5,7 @@ const Left = () => {
 
     return (
         <div className='leftSide'>
-            <img className='dotBackground' src="src/images/Background_Title.png" alt="dotted background" />
+            <img className='dotBackground' src="src/images/Background_Title.png" alt="Joe Tomlin Title" />
             <div>
                 <link rel="shortcut icon" href="https://www.linkedin.com/in/josephtomlin/" type="image/x-icon" />
                 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />

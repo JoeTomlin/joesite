@@ -6,8 +6,7 @@ const Projects = () => {
     return (
         <div className='projects'>
             <div>
-                <h2 className='h2'>PROJECTS</h2>
-                <h3 className='h3'>I know Full Stack Python and JavaScript</h3>
+                <img className='projectDot' src="src/images/Projects_Dot.png" alt="Projects Header" />
             </div>
             <div className='projectCard'>
                 <h3>POKESHELTER</h3>
