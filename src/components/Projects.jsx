@@ -11,7 +11,7 @@ const Projects = () => {
             <div className='projectCard'>
                 <h3>POKESHELTER</h3>
                 <img src="" alt="" />
-                <p>A collaborative project that pulls from PokeAPI to allow users to "adopt" pokemon</p>
+                <p>A collaborative project that pulls from PokeAPI to allow users to "adopt" pokemon. One of my biggest challenges on this project was learning to how take arrays from multiple API requests and store them as objects.</p>
                 <div className='tools'>
                     <p className='tool' >JavaScript</p>
                     <p className='tool'>React</p>
@@ -28,7 +28,7 @@ const Projects = () => {
             <div className='projectCard'>
                 <h3>ENSAVE</h3>
                 <img src="" alt="" />
-                <p></p>
+                <p>An application designed for homeowners to keep track of their home renovation projects. I learned about how different frameworks have varying strengths and weaknesses. I plan to add a data scraping element to this in a future iteration.</p>
                 <div className='tools'>
                     <p className='tool'>Python</p>
                     <p className='tool'>Flask</p>
