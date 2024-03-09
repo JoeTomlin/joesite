@@ -2,6 +2,7 @@ import './App.css'
 import Left from './components/LeftScreen'
 import About from './components/About'
 import Projects from './components/Projects'
+import WorkXP from './components/WorkXP'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <div className='rightSide'>
           <About/>
           <Projects/>
+          <WorkXP/>
         </div>
       </div>
     </>
