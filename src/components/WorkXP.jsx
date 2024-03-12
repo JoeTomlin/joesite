@@ -14,7 +14,7 @@ const WorkXP = () => {
                     </div>
                     <p className='timeline' >2021-2023</p>
                 </div>
-                <p>I collaborated with Solutions Architects and Products Managers to create custom SaaS product roadmaps for 50 renewed contracts in AMER and EMEA.</p>
+                <p>Collaborated with Solutions Architects and Products Managers to create custom SaaS product roadmaps for 50 renewed contracts in AMER and EMEA.</p>
             </div>
             <div className='xpCard'>
                 <div className='header'>
@@ -24,7 +24,7 @@ const WorkXP = () => {
                     </div>
                     <p className='timeline'>2019-2020</p>
                 </div>
-                <p>I closed $1M inbound B2B sales for over 600 wholesale accounts at a sustainability-focused startup.</p>
+                <p>Closed $1M inbound B2B sales for over 600 wholesale accounts at a sustainability-focused startup.</p>
             </div>
             <div className='xpCard'>
                 <div className='header'>
@@ -34,8 +34,9 @@ const WorkXP = () => {
                     </div>
                     <p className='timeline'>2018-2019</p>
                 </div>
-                <p>I enacted promo events, press tours, film screenings, and red carpet events for Universal Studios and Paramount Pictures films. Sometimes on a budget of $0.</p>
+                <p>Enacted promo events, press tours, film screenings, and red carpet events for Universal Studios and Paramount Pictures films. Sometimes on a budget of $0.</p>
             </div>
+            <p style={{fontStyle: 'italic', fontWeight: 'bold', marginTop: '35px', display: 'flex', justifyContent: 'center'}}>FULL RESUME</p>
         </div>
     )
 }

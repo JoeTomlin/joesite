@@ -3,10 +3,12 @@
   padding: 5rem;
   color: ghostwhite;
   font-family: "verdana", sans-serif;
+  cursor: url('src/images/Mouse_Dot.mp4');
 }
 
 .body {
   display: flex;
+  cursor: url('src/images/Mouse_Dot.mp4');
 }
 
 .leftSide {
@@ -21,25 +23,3 @@
 
 /* background-color: #011b4f;
 background-color: #59002e; */
-
-/* .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-} */

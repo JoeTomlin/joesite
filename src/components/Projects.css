@@ -1,5 +1,5 @@
 .projects {
-    background-color: #011b4f
+    background-color: #011b4f;
 }
 
 .projectDot {
@@ -10,7 +10,13 @@
 }
 
 .projectCard {
-    padding-top: 15px;
+    margin-top: 15px;
+    /* border-style: solid;
+    border-color: #693ac6;
+    border-width: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px; */
 }
 
 .tools {
