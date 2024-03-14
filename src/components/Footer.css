@@ -1,0 +1,10 @@
+.footerBody {
+    margin-top: 100px;
+}
+
+.p {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    color: lightgray;
+    font-weight: 100; 
+}

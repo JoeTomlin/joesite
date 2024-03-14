@@ -36,7 +36,7 @@ const WorkXP = () => {
                 </div>
                 <p>Enacted promo events, press tours, film screenings, and red carpet events for Universal Studios and Paramount Pictures films. Sometimes on a budget of $0.</p>
             </div>
-            <p style={{fontStyle: 'italic', fontWeight: 'bold', marginTop: '35px', display: 'flex', justifyContent: 'center'}}>FULL RESUME</p>
+            <p style={{fontStyle: 'italic', fontWeight: 'bold', marginTop: '45px', display: 'flex', justifyContent: 'center'}}>FULL RESUME</p>
         </div>
     )
 }

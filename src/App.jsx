@@ -3,6 +3,7 @@ import Left from './components/LeftScreen'
 import About from './components/About'
 import Projects from './components/Projects'
 import WorkXP from './components/WorkXP'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <About/>
           <Projects/>
           <WorkXP/>
+          <Footer/>
         </div>
       </div>
     </>

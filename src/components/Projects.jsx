@@ -32,7 +32,7 @@ const Projects = () => {
                     <p className='tool'>Bootstrap</p>
                 </div>
             </div>
-            <p style={{fontStyle: 'italic', fontWeight: 'bold', marginTop: '35px', display: 'flex', justifyContent: 'center'}} href="https://github.com/JoeTomlin">ALL PROJECTS</p>
+            <p style={{fontStyle: 'italic', fontWeight: 'bold', marginTop: '45px', display: 'flex', justifyContent: 'center'}} href="https://github.com/JoeTomlin">ALL PROJECTS</p>
         </div>
     )
 }
