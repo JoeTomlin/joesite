@@ -5,6 +5,7 @@
 .p {
     margin: 0;
     font-family: Helvetica, sans-serif;
-    color: lightgray;
-    font-weight: 100; 
+    color: darkgray;
+    font-weight: lighter;
+    font-size: smaller;
 }
