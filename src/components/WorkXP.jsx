@@ -34,9 +34,11 @@ const WorkXP = () => {
                     </div>
                     <p className='timeline'>2018-2019</p>
                 </div>
-                <p>Enacted promo events, press tours, film screenings, and red carpet events for Universal Studios and Paramount Pictures films. Sometimes on a budget of $0.</p>
+                <p>Enacted promo events, press tours, film screenings, and red carpet events for Universal Studios and Paramount Pictures films. Usually on a budget of $0.</p>
             </div>
-            <p style={{fontStyle: 'italic', fontWeight: 'bold', marginTop: '45px', display: 'flex', justifyContent: 'center'}}>FULL RESUME</p>
+            <div className = 'link' >
+                <button type='button' id = 'fullResume'>FULL RESUME</button>
+            </div>
         </div>
     )
 }

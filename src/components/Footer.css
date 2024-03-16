@@ -5,6 +5,7 @@
 .p {
     margin: 0;
     font-family: Helvetica, sans-serif;
+    padding-left: 100px;
     color: darkgray;
     font-weight: lighter;
     font-size: smaller;

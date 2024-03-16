@@ -7,16 +7,14 @@
     margin-bottom: -100px;
     margin-left: -40px;
     width: 400px;
+    z-index: 1;
 }
 
 .projectCard {
-    margin-top: 45px;
-    /* border-style: solid;
-    border-color: #693ac6;
-    border-width: 3px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px; */
+    margin-top: 30px;
+    padding: 15px;
+    /* background-color: #693ac6; */
+    border-radius: 10px 10px 10px 10px;
 }
 
 .tools {
@@ -30,4 +28,26 @@
     background-color: #8e3563;
     border-radius: 10px 10px 10px 10px;
     font-weight: bold;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+#allProjects { 
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    margin-top: 45px; 
+    border-radius: 10px 10px 10px 10px;
+    padding: 9px;
+
+
+    color: ghostwhite;
+    background-color: #693ac6;
+    font-style: italic;
+    font-weight: bold;
+    border-style: none;
+    box-shadow: 2px 2px ghostwhite;
 }

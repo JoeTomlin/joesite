@@ -5,13 +5,16 @@
 .xpDot {
     margin-top: -100px;
     margin-bottom: -100px;
-    margin-left: -40px;
+    margin-left: -25px;
     width: 400px;
     height: min-content;
+    z-index: 1;
 }
 
 .xpCard {
     margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .header {
@@ -32,4 +35,26 @@
     background-color: #8e3563;
     border-radius: 10px 10px 10px 10px;
     font-style: italic;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+#fullResume { 
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    margin-top: 45px; 
+    border-radius: 10px 10px 10px 10px;
+    padding: 9px;
+
+
+    color: ghostwhite;
+    background-color: #693ac6;
+    font-style: italic;
+    font-weight: bold;
+    border-style: none;
+    box-shadow: 2px 2px ghostwhite;
 }
