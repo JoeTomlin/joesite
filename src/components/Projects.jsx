@@ -3,10 +3,24 @@ import "./Projects.css";
 
 const Projects = () => {
 
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            console.log(entry)
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            } else {
+                entry.target.classList.remove('show');
+            }
+        });
+    });
+
+    const hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElements.forEach((el) => observer.observe(el));
+    
     return (
         <div className='projects'>
-            <img className='projectDot' src="src/images/Projects_Dot.png" alt="Projects Header" />
-            <div className='projectCard'>
+            <img className='projectDot hidden' src="src/images/Projects_Dot.png" alt="Projects Header" />
+            <div className='projectCard hidden'>
                 <h3>POKESHELTER</h3>
                 <p>A collaborative project that pulls from PokeAPI to allow users to "adopt" pokemon. One of the biggest challenges I overcame on this project was learning to how take arrays from multiple API requests and store them as objects.</p>
                 <div className='tools'>
@@ -22,7 +36,7 @@ const Projects = () => {
                     <p className='tool'>Material-UI</p>
                 </div>
             </div>
-            <div className='projectCard'>
+            <div className='projectCard hidden'>
                 <h3>ENSAVE</h3>
                 <p>An app designed for homeowners to keep track of their home renovation projects. I learned how different frameworks have varying strengths and weaknesses. I plan to add a data scraping element to this in a future iteration that utilizes MERN.</p>
                 <div className='tools'>
@@ -32,7 +46,7 @@ const Projects = () => {
                     <p className='tool'>Bootstrap</p>
                 </div>
             </div>
-            <div className='link'>
+            <div className='link hidden'>
                 <button type='button' id = 'allProjects'>ALL PROJECTS</button>
             </div>
         </div>

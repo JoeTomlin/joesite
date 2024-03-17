@@ -3,10 +3,25 @@ import "./WorkXP.css";
 
 const WorkXP = () => {
 
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            console.log(entry)
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            } else {
+                entry.target.classList.remove('show');
+            }
+        });
+    });
+    
+    const hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElements.forEach((el) => observer.observe(el));
+        
+
     return (
         <div>
-            <img className='xpDot' src="src/images/XP_Dot.png" alt="Work XP Header" />
-            <div className='xpCard'>
+            <img className='xpDot hidden' src="src/images/XP_Dot.png" alt="Work XP Header" />
+            <div className='xpCard hidden'>
                 <div className='header'>
                     <div>
                         <h3>ACCOUNT MANAGER</h3>
@@ -16,7 +31,7 @@ const WorkXP = () => {
                 </div>
                 <p>Collaborated with Solutions Architects and Products Managers to create custom SaaS product roadmaps for 50 renewed contracts in AMER and EMEA.</p>
             </div>
-            <div className='xpCard'>
+            <div className='xpCard hidden'>
                 <div className='header'>
                     <div>
                         <h3>ACCOUNT MANAGER</h3>
@@ -26,7 +41,7 @@ const WorkXP = () => {
                 </div>
                 <p>Closed $1M inbound B2B sales for over 600 wholesale accounts at a sustainability-focused startup.</p>
             </div>
-            <div className='xpCard'>
+            <div className='xpCard hidden'>
                 <div className='header'>
                     <div>
                         <h3>PUBLICITY COORDINATOR</h3>
@@ -36,7 +51,7 @@ const WorkXP = () => {
                 </div>
                 <p>Enacted promo events, press tours, film screenings, and red carpet events for Universal Studios and Paramount Pictures films. Usually on a budget of $0.</p>
             </div>
-            <div className = 'link' >
+            <div className = 'link hidden' >
                 <button type='button' id = 'fullResume'>FULL RESUME</button>
             </div>
         </div>

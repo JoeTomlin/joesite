@@ -3,10 +3,24 @@ import "./About.css";
 
 const About = () => {
 
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            console.log(entry)
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            } else {
+                entry.target.classList.remove('show');
+            }
+        });
+    });
+    
+    const hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElements.forEach((el) => observer.observe(el));
+
     return (
         <div className='aboutCard'>
-            <img className='aboutDot' src="src/images/About_Dot.png" alt="About Header" />
-            <div className='paragraph'>
+            <img className='aboutDot hidden' src="src/images/About_Dot.png" alt="About Header" />
+            <div className='paragraph hidden'>
                 <p>" I wasn't always a software engineer. Previously, I was a student at <span style={{fontWeight: "bold", fontStyle: "italic"}}>UC Berkeley</span>, a Publicity Coordinator for Universal Studios & Paramount Pictures, and even an Account Manager for a sustainable product manufacturer.
                 </p>
                 <p> During the pandemic, I took the opportunity to finally work at a <span style={{fontWeight: "bold", fontStyle: "italic"}}>SaaS startup</span>. I was hands on with customers, <span style={{fontWeight: "bold", fontStyle: "italic"}}>Solution Architects</span>, and <span style={{fontWeight: "bold", fontStyle: "italic"}}>Product Managers</span>, bridging the gap between clients and developers by listening, learning, and effectively communicating customer needs.
