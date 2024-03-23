@@ -2,20 +2,6 @@ import React from 'react';
 import "./Projects.css";
 
 const Projects = () => {
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-            console.log(entry)
-            if (entry.isIntersecting) {
-                entry.target.classList.add('show');
-            } else {
-                entry.target.classList.remove('show');
-            }
-        });
-    });
-
-    const hiddenElements = document.querySelectorAll('.hidden');
-    hiddenElements.forEach((el) => observer.observe(el));
     
     return (
         <div className='projects'>
@@ -24,7 +10,7 @@ const Projects = () => {
                 <h3>POKESHELTER</h3>
                 <p>A collaborative project that pulls from PokeAPI to allow users to "adopt" pokemon. One of the biggest challenges I overcame on this project was learning to how take arrays from multiple API requests and store them as objects.</p>
                 <div className='tools'>
-                    <p className='tool' >JavaScript</p>
+                    <p className='tool'>JavaScript</p>
                     <p className='tool'>React</p>
                     <p className='tool'>MongoDB</p>
                     <p className='tool'>Vite</p>

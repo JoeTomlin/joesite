@@ -21,5 +21,20 @@
   margin-left: 80px;
 }
 
-/* background-color: #011b4f;
-background-color: #59002e; */
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-50%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.hiddenButton {
+  background-color: #693ac6;
+  box-shadow: 4px 3px ghostwhite;
+}

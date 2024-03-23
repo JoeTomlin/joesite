@@ -3,21 +3,6 @@ import "./WorkXP.css";
 
 const WorkXP = () => {
 
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-            console.log(entry)
-            if (entry.isIntersecting) {
-                entry.target.classList.add('show');
-            } else {
-                entry.target.classList.remove('show');
-            }
-        });
-    });
-    
-    const hiddenElements = document.querySelectorAll('.hidden');
-    hiddenElements.forEach((el) => observer.observe(el));
-        
-
     return (
         <div>
             <img className='xpDot hidden' src="src/images/XP_Dot.png" alt="Work XP Header" />
