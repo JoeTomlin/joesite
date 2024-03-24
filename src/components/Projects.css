@@ -3,7 +3,7 @@
 }
 
 .projectDot {
-    margin-top: -100px;
+    margin-top: 0px;
     margin-bottom: -100px;
     margin-left: -40px;
     width: 400px;
@@ -29,18 +29,26 @@
     font-weight: bold;
 }
 
+a {
+    display: inline;
+  }
+
 .link {
+    width: 142px;
+    margin-top: 45px !important;
+    margin: auto;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 #allProjects { 
     display: flex;
     justify-content: center;
     z-index: 10;
-    margin-top: 45px; 
     border-radius: 10px 10px 10px 10px;
     padding: 9px;
+    cursor: pointer;
 
 
     color: ghostwhite;

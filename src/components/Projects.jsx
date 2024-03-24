@@ -1,8 +1,13 @@
 import React from 'react';
 import "./Projects.css";
+import {Navigate} from 'react-router-dom';
 
 const Projects = () => {
     
+    function GoToGithub () {
+        return <Navigate to='https://github.com/JoeTomlin'/>;
+    }
+
     return (
         <div className='projects'>
             <img className='projectDot hidden' src="src/images/Projects_Dot.png" alt="Projects Header" />
@@ -32,9 +37,9 @@ const Projects = () => {
                     <p className='tool'>Bootstrap</p>
                 </div>
             </div>
-            <div className='link hidden'>
-                <button type='button' id = 'allProjects'>ALL PROJECTS</button>
-            </div>
+            <a className='link hidden' href="https://github.com/JoeTomlin">
+                <button type='button' id='allProjects'>ALL PROJECTS</button>
+            </a>
         </div>
     )
 }

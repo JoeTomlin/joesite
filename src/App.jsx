@@ -13,16 +13,10 @@ function App() {
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-        // console.log(entry)
         if (entry.isIntersecting) { 
             entry.target.classList.add('show');
-            // entry.target.classList.remove('hidden');
             console.log('add show');
         }
-        // else { 
-        //     entry.target.classList.remove('show');
-        //     console.log('remove show')  
-        // }
     }); 
   });
 
@@ -42,9 +36,9 @@ function App() {
         <Left/>
         </div>
         <div className='rightSide'>
-          <About/>
-          <Projects/>
-          <WorkXP/>
+          <About className='about'/>
+          <Projects className='projects'/>
+          <WorkXP className='workXP'/>
           <Footer/>
         </div>
       </div>
