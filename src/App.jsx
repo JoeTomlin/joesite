@@ -29,6 +29,13 @@ function App() {
   };
 }, []);
 
+  const boundary = document.getElementsByClassName('projectCard', 'xpCard');
+  function mouseOverFunction() {
+      projectCard.style.background-color == '#693ac6';
+      projectCard.style.box-shadow == '4px 3px #f8f8ff';
+  };
+  boundary.onmouseover = mouseOverFunction;
+
   return (
     <>
       <div className='body'>

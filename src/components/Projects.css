@@ -3,7 +3,7 @@
 }
 
 .projectDot {
-    margin-top: 0px;
+    margin-top: -20px;
     margin-bottom: -100px;
     margin-left: -40px;
     width: 400px;
@@ -47,6 +47,7 @@ a {
     justify-content: center;
     z-index: 10;
     border-radius: 10px 10px 10px 10px;
+    margin-top: 10px;
     padding: 9px;
     cursor: pointer;
 

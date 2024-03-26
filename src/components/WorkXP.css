@@ -32,18 +32,20 @@
     height: min-content;
     padding: 6px 8px 6px 8px;
     margin: 9px;
-    background-color: #8e3563;
+    background-color: #FF4AA8;
     border-radius: 10px 10px 10px 10px;
     font-style: italic;
+    font-weight: bold;
 }
 
 #fullResume { 
     display: flex;
     justify-content: center;
     z-index: 10;
-    margin-top: 45px; 
+    margin-top: 10px; 
     border-radius: 10px 10px 10px 10px;
     padding: 9px;
+    cursor: pointer;
 
 
     color: ghostwhite;
