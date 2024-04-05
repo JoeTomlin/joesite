@@ -14,6 +14,14 @@
     margin-top: 30px;
     padding: 15px;
     border-radius: 10px 10px 10px 10px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    color: ghostwhite;
+    text-decoration-line: none !important;
+}
+
+.hovered {
+    background-color: #693ac6;
+    box-shadow: 4px 3px #f8f8ff;
 }
 
 .tools {
@@ -31,7 +39,7 @@
 
 a {
     display: inline;
-  }
+}
 
 .link {
     width: 142px;

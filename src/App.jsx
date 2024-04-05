@@ -5,9 +5,22 @@ import Projects from './components/Projects'
 import WorkXP from './components/WorkXP'
 import Footer from './components/Footer'
 import React, {useEffect} from 'react'
+import { useState } from 'react'
 
 
 function App() {
+
+  const [hoveredElement, setHoveredElement] = useState(null);
+
+  // Function to handle mouse over event
+  const handleMouseOver = (elementId) => {
+    setHoveredElement(elementId);
+  };
+
+  // Function to handle mouse out event
+  const handleMouseOut = () => {
+    setHoveredElement(null);
+  };
 
   useEffect(() => { 
 
@@ -29,13 +42,6 @@ function App() {
   };
 }, []);
 
-  const boundary = document.getElementsByClassName('projectCard', 'xpCard');
-  function mouseOverFunction() {
-      projectCard.style.background-color == '#693ac6';
-      projectCard.style.box-shadow == '4px 3px #f8f8ff';
-  };
-  boundary.onmouseover = mouseOverFunction;
-
   return (
     <>
       <div className='body'>
@@ -44,8 +50,8 @@ function App() {
         </div>
         <div className='rightSide'>
           <About className='about'/>
-          <Projects className='projects'/>
-          <WorkXP className='workXP'/>
+          <Projects className='projects' handleMouseOver={handleMouseOver} handleMouseOut={handleMouseOut} hoveredElement={hoveredElement}/>
+          <WorkXP className='workXP' handleMouseOver={handleMouseOver} handleMouseOut={handleMouseOut} hoveredElement={hoveredElement}/>
           <Footer/>
         </div>
       </div>
