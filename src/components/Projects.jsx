@@ -36,7 +36,7 @@ const Projects = ({ handleMouseOver, handleMouseOut, hoveredElement }) => {
                     </div>
                 </div>
             </a>
-            <a className='link' href="https://github.com/JoeTomlin">
+            <a className='link' style={{textDecoration: 'none'}} href="https://github.com/JoeTomlin">
                 <button type='button' id='allProjects'>ALL PROJECTS</button>
             </a>
         </div>

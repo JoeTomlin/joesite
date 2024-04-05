@@ -42,7 +42,7 @@ const WorkXP = ({ handleMouseOver, handleMouseOut, hoveredElement }) => {
                     <p>Enacted promo events, press tours, film screenings, and red carpet events for Universal Studios and Paramount Pictures films. Usually on a budget of $0.</p>
                 </div>
             </a>
-            <a className='link' href="https://www.linkedin.com/in/josephtomlin/">
+            <a className='link' style={{textDecoration: 'none'}} href="https://www.linkedin.com/in/josephtomlin/">
                 <button type='button' id = 'fullResume'>FULL RESUME</button>
             </a>
         </div>
