@@ -6,7 +6,7 @@ const Projects = ({ handleMouseOver, handleMouseOut, hoveredElement }) => {
     return (
         <div className='projects'>
             <img className='projectDot' src="src/images/Projects_Dot.png" alt="Projects Header" />
-            <a style={{textDecoration: 'none'}} href="https://github.com/CloudedEevee/PokeShelter">
+            <a style={{textDecoration: 'none'}} href="https://github.com/CloudedEevee/PokeShelter" target='_blank'>
                 <div className={hoveredElement === 'pokeshelter' ? 'projectCard hovered' : 'projectCard'} onMouseOver={() => handleMouseOver('pokeshelter')} onMouseOut={handleMouseOut}>
                     <h3>POKESHELTER</h3>
                     <p>A collaborative project that pulls from PokeAPI to allow users to "adopt" pokemon. One of the biggest challenges I overcame on this project was learning to how take arrays from multiple API requests and store them as objects.</p>
@@ -24,7 +24,7 @@ const Projects = ({ handleMouseOver, handleMouseOut, hoveredElement }) => {
                     </div>
                 </div>
             </a>
-            <a style={{textDecoration: 'none'}} href="https://github.com/JoeTomlin/EnSave">
+            <a style={{textDecoration: 'none'}} href="https://github.com/JoeTomlin/EnSave" target='_blank'>
                 <div className={hoveredElement === 'ensave' ? 'projectCard hovered' : 'projectCard'} onMouseOver={() => handleMouseOver('ensave')} onMouseOut={handleMouseOut}>
                     <h3>ENSAVE</h3>
                     <p>An app designed for homeowners to keep track of their home renovation projects. I learned how different frameworks have varying strengths and weaknesses. I plan to add a data scraping element to this in a future iteration that utilizes MERN.</p>
@@ -36,7 +36,7 @@ const Projects = ({ handleMouseOver, handleMouseOut, hoveredElement }) => {
                     </div>
                 </div>
             </a>
-            <a className='link' style={{textDecoration: 'none'}} href="https://github.com/JoeTomlin">
+            <a className='link' style={{textDecoration: 'none'}} href="https://github.com/JoeTomlin" target='_blank'>
                 <button type='button' id='allProjects'>ALL PROJECTS</button>
             </a>
         </div>

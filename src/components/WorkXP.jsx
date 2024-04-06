@@ -6,7 +6,7 @@ const WorkXP = ({ handleMouseOver, handleMouseOut, hoveredElement }) => {
     return (
         <div>
             <img className='xpDot' src="src/images/XP_Dot.png" alt="Work XP Header" />
-            <a style={{textDecoration: 'none'}} href="https://www.deputy.com/">
+            <a style={{textDecoration: 'none'}} href="https://www.deputy.com/" target='_blank'>
                 <div className={hoveredElement === 'deputy' ? 'projectCard hovered' : 'projectCard'} onMouseOver={() => handleMouseOver('deputy')} onMouseOut={handleMouseOut}>
                     <div className='header'>
                         <div>
@@ -18,7 +18,7 @@ const WorkXP = ({ handleMouseOver, handleMouseOut, hoveredElement }) => {
                     <p>Collaborated with Solutions Architects and Products Managers to create custom SaaS product roadmaps for 50 renewed contracts in AMER and EMEA.</p>
                 </div>
             </a>
-            <a style={{textDecoration: 'none'}} href="https://www.getque.com/">
+            <a style={{textDecoration: 'none'}} href="https://www.getque.com/" target='_blank'>
                 <div className={hoveredElement === 'queFactory' ? 'projectCard hovered' : 'projectCard'} onMouseOver={() => handleMouseOver('queFactory')} onMouseOut={handleMouseOut}>
                     <div className='header'>
                         <div>
@@ -30,7 +30,7 @@ const WorkXP = ({ handleMouseOver, handleMouseOut, hoveredElement }) => {
                     <p>Closed $1M inbound B2B sales for over 600 wholesale accounts at a sustainability-focused startup.</p>
                 </div>
             </a>
-            <a style={{textDecoration: 'none'}} href="https://alliedglobalmarketing.com/#clients">
+            <a style={{textDecoration: 'none'}} href="https://alliedglobalmarketing.com/#clients" target='_blank'>
                 <div className={hoveredElement === 'allied' ? 'projectCard hovered' : 'projectCard'} onMouseOver={() => handleMouseOver('allied')} onMouseOut={handleMouseOut}>
                     <div className='header'>
                         <div>
@@ -42,7 +42,7 @@ const WorkXP = ({ handleMouseOver, handleMouseOut, hoveredElement }) => {
                     <p>Enacted promo events, press tours, film screenings, and red carpet events for Universal Studios and Paramount Pictures films. Usually on a budget of $0.</p>
                 </div>
             </a>
-            <a className='link' style={{textDecoration: 'none'}} href="https://www.linkedin.com/in/josephtomlin/">
+            <a className='link' style={{textDecoration: 'none'}} href="https://www.linkedin.com/in/josephtomlin/" target='_blank'>
                 <button type='button' id = 'fullResume'>FULL RESUME</button>
             </a>
         </div>
