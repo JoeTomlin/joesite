@@ -36,6 +36,11 @@
   text-decoration-line: none !important;
 }
 
+.hovered {
+  background-color: #693ac6;
+  box-shadow: 4px 3px #f8f8ff;
+}
+
 .about {
   z-index: 2;
 }

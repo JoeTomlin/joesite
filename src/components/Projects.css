@@ -19,11 +19,6 @@
     text-decoration-line: none !important;
 }
 
-.hovered {
-    background-color: #693ac6;
-    box-shadow: 4px 3px #f8f8ff;
-}
-
 .tools {
     display: flex;
     flex: start;
@@ -60,7 +55,7 @@ a {
     cursor: pointer;
 
 
-    color: ghostwhite;
+    color: #f8f8ff;
     background-color: #693ac6;
     font-style: italic;
     font-weight: bold;
