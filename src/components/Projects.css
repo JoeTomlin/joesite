@@ -48,7 +48,7 @@ a {
 #allProjects { 
     display: flex;
     justify-content: center;
-    z-index: 10;
+    z-index: 9;
     border-radius: 10px 10px 10px 10px;
     margin-top: 10px;
     padding: 9px;

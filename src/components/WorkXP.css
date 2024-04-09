@@ -42,7 +42,7 @@
 #fullResume { 
     display: flex;
     justify-content: center;
-    z-index: 10;
+    z-index: 9;
     margin-top: 10px; 
     border-radius: 10px 10px 10px 10px;
     padding: 9px;

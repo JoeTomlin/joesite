@@ -8,17 +8,27 @@
 
 .body {
   display: flex;
-  cursor: url('src/images/Mouse_Dot.mp4');
+}
+
+.circle {
+  z-index: 10;
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  background-color: #693ac6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
 }
 
 .leftSide {
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
 }
 
 .rightSide {
-  margin-left: 80px;
+  margin-left: 50%;
 }
 
 .hidden {
