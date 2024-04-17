@@ -3,7 +3,6 @@
   padding: 5rem;
   color: ghostwhite;
   font-family: "verdana", sans-serif;
-  cursor: url('src/images/Mouse_Dot.mp4');
 }
 
 .body {
@@ -11,15 +10,15 @@
 }
 
 .circle {
-  z-index: 10;
   height: 24px;
   width: 24px;
   border-radius: 24px;
-  background-color: #693ac6;
-  position: absolute;
+  background-color: black;
+  position: fixed; 
   top: 0;
   left: 0;
   pointer-events: none;
+  z-index: 99999999;
 }
 
 .leftSide {
@@ -43,6 +42,15 @@
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+  text-decoration-line: none !important;
+}
+
+.Card {
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 10px 10px 10px 10px;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  color: ghostwhite;
   text-decoration-line: none !important;
 }
 

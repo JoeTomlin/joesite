@@ -1,13 +1,13 @@
 import React from 'react';
 import "./WorkXP.css";
 
-const WorkXP = ({ handleMouseOver, handleMouseOut, hoveredElement }) => {
+const WorkXP = ({ handleMouseEnter, handleMouseLeave, hoveredElement }) => {
 
     return (
         <div>
             <img className='xpDot' src="src/images/XP_Dot.png" alt="Work XP Header" />
             <a style={{textDecoration: 'none'}} href="https://www.deputy.com/" target='_blank'>
-                <div className={hoveredElement === 'deputy' ? 'projectCard hovered' : 'projectCard'} onMouseOver={() => handleMouseOver('deputy')} onMouseOut={handleMouseOut}>
+                <div className={hoveredElement === 'deputy' ? 'Card hovered' : 'Card'} onMouseEnter={() => handleMouseEnter('deputy')} onMouseLeave={handleMouseLeave}>
                     <div className='header'>
                         <div>
                             <h3>ACCOUNT MANAGER</h3>
@@ -19,7 +19,7 @@ const WorkXP = ({ handleMouseOver, handleMouseOut, hoveredElement }) => {
                 </div>
             </a>
             <a style={{textDecoration: 'none'}} href="https://www.getque.com/" target='_blank'>
-                <div className={hoveredElement === 'queFactory' ? 'projectCard hovered' : 'projectCard'} onMouseOver={() => handleMouseOver('queFactory')} onMouseOut={handleMouseOut}>
+                <div className={hoveredElement === 'queFactory' ? 'Card hovered' : 'Card'} onMouseEnter={() => handleMouseEnter('queFactory')} onMouseLeave={handleMouseLeave}>
                     <div className='header'>
                         <div>
                             <h3>ACCOUNT MANAGER</h3>
@@ -31,7 +31,7 @@ const WorkXP = ({ handleMouseOver, handleMouseOut, hoveredElement }) => {
                 </div>
             </a>
             <a style={{textDecoration: 'none'}} href="https://alliedglobalmarketing.com/#clients" target='_blank'>
-                <div className={hoveredElement === 'allied' ? 'projectCard hovered' : 'projectCard'} onMouseOver={() => handleMouseOver('allied')} onMouseOut={handleMouseOut}>
+                <div className={hoveredElement === 'allied' ? 'Card hovered' : 'Card'} onMouseEnter={() => handleMouseEnter('allied')} onMouseLeave={handleMouseLeave}>
                     <div className='header'>
                         <div>
                             <h3>PUBLICITY COORDINATOR</h3>

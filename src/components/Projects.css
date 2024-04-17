@@ -10,15 +10,6 @@
     z-index: 1;
 }
 
-.projectCard {
-    margin-top: 30px;
-    padding: 15px;
-    border-radius: 10px 10px 10px 10px;
-    transition: background-color 0.3s, box-shadow 0.3s;
-    color: ghostwhite;
-    text-decoration-line: none !important;
-}
-
 .tools {
     display: flex;
     flex: start;

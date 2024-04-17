@@ -1,13 +1,13 @@
 import React from 'react';
 import "./Projects.css";
 
-const Projects = ({ handleMouseOver, handleMouseOut, hoveredElement }) => {
+const Projects = ({ handleMouseEnter, handleMouseLeave, hoveredElement }) => {
 
     return (
         <div className='projects'>
             <img className='projectDot' src="src/images/Projects_Dot.png" alt="Projects Header" />
-            <a style={{textDecoration: 'none'}} href="https://github.com/CloudedEevee/PokeShelter" target='_blank'>
-                <div className={hoveredElement === 'pokeshelter' ? 'projectCard hovered' : 'projectCard'} onMouseOver={() => handleMouseOver('pokeshelter')} onMouseOut={handleMouseOut}>
+            <a style={{textDecoration: 'none'}} href="https://github.com/CloudedEevee/PokeShelter" target='_blank' className='pokeshelter'>
+                <div className={hoveredElement === 'pokeshelter' ? 'Card hovered' : 'Card'} onMouseEnter={() => handleMouseEnter('pokeshelter')} onMouseLeave={handleMouseLeave}>
                     <h3>POKESHELTER</h3>
                     <p>A collaborative project that pulls from PokeAPI to allow users to "adopt" pokemon. One of the biggest challenges I overcame on this project was learning to how take arrays from multiple API requests and store them as objects.</p>
                     <div className='tools'>
@@ -25,7 +25,7 @@ const Projects = ({ handleMouseOver, handleMouseOut, hoveredElement }) => {
                 </div>
             </a>
             <a style={{textDecoration: 'none'}} href="https://github.com/JoeTomlin/EnSave" target='_blank'>
-                <div className={hoveredElement === 'ensave' ? 'projectCard hovered' : 'projectCard'} onMouseOver={() => handleMouseOver('ensave')} onMouseOut={handleMouseOut}>
+                <div className={hoveredElement === 'ensave' ? 'Card hovered' : 'Card'} onMouseEnter={() => handleMouseEnter('ensave')} onMouseLeave={handleMouseLeave}>
                     <h3>ENSAVE</h3>
                     <p>An app designed for homeowners to keep track of their home renovation projects. I learned how different frameworks have varying strengths and weaknesses. I plan to add a data scraping element to this in a future iteration that utilizes MERN.</p>
                     <div className='tools'>

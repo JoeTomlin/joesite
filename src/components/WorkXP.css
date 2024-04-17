@@ -11,13 +11,6 @@
     z-index: 1;
 }
 
-.xpCard {
-    margin-top: 30px;
-    padding: 15px;
-    border-radius: 10px 10px 10px 10px;
-    color: ghostwhite;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
