@@ -7,7 +7,7 @@ const WorkXP = ({ handleMouseEnter, handleMouseLeave, hoveredElement }) => {
         <div>
             <img className='xpDot' src="src/images/XP_Dot.png" alt="Work XP Header" />
             <a style={{textDecoration: 'none'}} href="https://www.deputy.com/" target='_blank'>
-                <div className={hoveredElement === 'deputy' ? 'Card hovered' : 'Card'} onMouseEnter={() => handleMouseEnter('deputy')} onMouseLeave={handleMouseLeave}>
+                <div className={hoveredElement === 'deputy' ? 'card hovered' : 'card'} onMouseEnter={() => handleMouseEnter('deputy')} onMouseLeave={handleMouseLeave}>
                     <div className='header'>
                         <div>
                             <h3>ACCOUNT MANAGER</h3>
@@ -19,7 +19,7 @@ const WorkXP = ({ handleMouseEnter, handleMouseLeave, hoveredElement }) => {
                 </div>
             </a>
             <a style={{textDecoration: 'none'}} href="https://www.getque.com/" target='_blank'>
-                <div className={hoveredElement === 'queFactory' ? 'Card hovered' : 'Card'} onMouseEnter={() => handleMouseEnter('queFactory')} onMouseLeave={handleMouseLeave}>
+                <div className={hoveredElement === 'queFactory' ? 'card hovered' : 'card'} onMouseEnter={() => handleMouseEnter('queFactory')} onMouseLeave={handleMouseLeave}>
                     <div className='header'>
                         <div>
                             <h3>ACCOUNT MANAGER</h3>
@@ -31,7 +31,7 @@ const WorkXP = ({ handleMouseEnter, handleMouseLeave, hoveredElement }) => {
                 </div>
             </a>
             <a style={{textDecoration: 'none'}} href="https://alliedglobalmarketing.com/#clients" target='_blank'>
-                <div className={hoveredElement === 'allied' ? 'Card hovered' : 'Card'} onMouseEnter={() => handleMouseEnter('allied')} onMouseLeave={handleMouseLeave}>
+                <div className={hoveredElement === 'allied' ? 'card hovered' : 'card'} onMouseEnter={() => handleMouseEnter('allied')} onMouseLeave={handleMouseLeave}>
                     <div className='header'>
                         <div>
                             <h3>PUBLICITY COORDINATOR</h3>
