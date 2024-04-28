@@ -45,7 +45,6 @@ a {
     padding: 9px;
     cursor: pointer;
 
-
     color: #f8f8ff;
     background-color: #693ac6;
     font-style: italic;
@@ -53,3 +52,41 @@ a {
     border-style: none;
     box-shadow: 2px 2px ghostwhite;
 }
+
+@media screen and (max-width: 1020px) {
+
+    .projectDot {
+        margin-top: -100px;
+        margin-bottom: -100px;
+        margin-left: -40px;
+        width: 400px;
+        z-index: 1;
+    }
+    
+    .link {
+        width: 142px;
+        margin-top: 45px !important;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    #allProjects { 
+        display: flex;
+        justify-content: center;
+        z-index: 9;
+        border-radius: 10px 10px 10px 10px;
+        margin-top: 10px;
+        padding: 9px;
+        cursor: pointer;
+    
+        color: #f8f8ff;
+        background-color: #693ac6;
+        font-style: italic;
+        font-weight: bold;
+        border-style: none;
+        box-shadow: 2px 2px ghostwhite;
+    }
+
+  }

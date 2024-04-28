@@ -12,3 +12,21 @@
 .paragraph {
     padding: 15px;
 }
+
+@media screen and (max-width: 1020px) {
+
+    .aboutDot {
+        margin-top: -100px;
+        margin-bottom: -100px;
+        margin-left: -8px;
+        width: 400px;
+    }
+    
+    .paragraph {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        padding: 0px;
+    }
+
+  }
