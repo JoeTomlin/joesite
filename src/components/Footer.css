@@ -11,3 +11,17 @@
     font-weight: lighter;
     font-size: smaller;
 }
+
+@media screen and (max-width: 1020px) {
+
+    .p {
+        margin-top: 0%;
+        margin-left: 22%;
+        margin-bottom: 0%;
+        font-family: Helvetica, sans-serif;
+        color: darkgray;
+        font-weight: lighter;
+        font-size: 110%;
+    }
+
+  }

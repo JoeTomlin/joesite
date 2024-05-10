@@ -6,7 +6,7 @@ const Left = () => {
     return (
         <div className='leftSide'>
             <img className='dotBackground' src="src/images/Background_Title.png" alt="Joe Tomlin Title" />
-            <div>
+            <div className='mediaLinks'>
                 <a href="https://github.com/JoeTomlin" target='_blank' className='icon'><img src="src/images/github_logo.png" alt="Joe's GitHub" className='icon' /></a>
                 <a href="https://www.linkedin.com/in/josephtomlin/" target='_blank' className='icon'><img src="src/images/linkedin_logo.png" alt="Joe's LinkedIn" className='icon' /></a>
                 <a href="https://www.instagram.com/jouktomlin/" target='_blank' className='icon'><img src="src/images/instagram_logo.png" alt="Joe's Insta" className='icon'/></a>

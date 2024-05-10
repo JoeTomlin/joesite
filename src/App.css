@@ -76,19 +76,18 @@
   box-shadow: 4px 3px #f8f8ff;
 }
 
-/* if width < 1266px */
-
 @media screen and (max-width: 1020px) {
   
   .body {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: auto !important;
   }
   
   .leftSide {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     position: relative;
     top: 0;
@@ -96,6 +95,26 @@
 
   .rightSide {
     margin-left: 0%;
+  }
+
+  .circle {
+    height: 0%;
+    width: 0%;
+    border-radius: 0%;
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999;
+  }
+
+  .card > h3 {
+    font-size: 160%;
+  }
+
+  .card > p {
+    font-size: 145%;
   }
 
 }

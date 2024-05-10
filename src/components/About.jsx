@@ -13,7 +13,7 @@ const About = () => {
                 </p>
                 <p> My time in SaaS taught me what I truly value: <span style={{fontWeight: "bold", fontStyle: "italic"}}>learning</span>. I then taught myself <span style={{fontWeight: "bold", fontStyle: "italic"}}>Python</span> and <span style={{fontWeight: "bold", fontStyle: "italic"}}>SQL</span> and ultimately took the leap to certification in <span style={{fontWeight: "bold", fontStyle: "italic"}}>JavaScript</span> and <span style={{fontWeight: "bold", fontStyle: "italic"}}>Python</span>. Now, I want to be the best Software Engineer I can possibly be.
                 </p>
-                <p> I love working on projects that challenge me or teach me something new about data structures. I also love working with organizations that are trying to make the earth a <span style={{fontWeight: "bold", fontStyle: "italic"}}>better</span> place."
+                <p> I love working on projects that challenge me or teach me something new about data structures. I also love working with organizations that are trying to make the earth a <span style={{fontWeight: "bold", fontStyle: "italic"}}>better</span> place. "
                 </p>
             </div>
         </div>
