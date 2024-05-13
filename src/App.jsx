@@ -6,11 +6,11 @@ import WorkXP from './components/WorkXP'
 import Footer from './components/Footer'
 import React, { useEffect, useState } from 'react'
 
-
 function App() {
+  
   const [hoveredElement, setHoveredElement] = useState(null);
   const coords = { x: 0, y: 0 };
-  const circles = document.querySelectorAll(".circle");
+  let circles = [];
 
   const colors = [
     '#693ac6',
@@ -25,20 +25,30 @@ function App() {
     '#ff4aa8'
   ];
 
-  circles.forEach(function (circle, index) {
-    circle.x = 0;
-    circle.y = 0;
-    circle.style.backgroundColor = colors[index % colors.length];
-  });
+  useEffect(() => {
+    circles = document.querySelectorAll(".circle");
 
-  window.addEventListener("mousemove", function(e){
-    coords.x = e.clientX;
-    coords.y = e.clientY;
-    
-  });
+    circles.forEach(function (circle, index) {
+      circle.x = 0;
+      circle.y = 0;
+      circle.style.backgroundColor = colors[index % colors.length];
+    });
+
+    const handleMouseMove = (e) => {
+      coords.x = e.clientX;
+      coords.y = e.clientY;
+    }
+
+    window.addEventListener("mousemove", handleMouseMove);
+
+    animateCircles();
+
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, []);
 
   function animateCircles() {
-    
     let x = coords.x;
     let y = coords.y;
     
@@ -52,14 +62,12 @@ function App() {
       circle.y = y;
 
       const nextCircle = circles[index + 1] || circles[0];
-      x += (nextCircle.x - x) * 0.9;
-      y += (nextCircle.y - y) * 0.9;
+      x += (nextCircle.x - x) * 0.8;
+      y += (nextCircle.y - y) * 0.8;
     });
   
     requestAnimationFrame(animateCircles);
   }
-
-  animateCircles();
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
