@@ -5,7 +5,7 @@ const About = () => {
 
     return (
         <div className='aboutCard'>
-            <img className='aboutDot hidden' src="src/images/About_Dot.png" alt="About Header" />
+            <img className='aboutDot hidden' src="src/images/About_Dot.jpeg" alt="About Header" />
             <div className='paragraph hidden'>
                 <p>" I wasn't always a software engineer. Previously, I was a student at <span style={{fontWeight: "bold", fontStyle: "italic"}}>UC Berkeley</span>, a Publicity Coordinator for Universal Studios & Paramount Pictures, and even an Account Manager for a sustainable product manufacturer.
                 </p>
