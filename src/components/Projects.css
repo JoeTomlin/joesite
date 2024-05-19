@@ -53,7 +53,7 @@ a {
     box-shadow: 2px 2px ghostwhite;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 480px) {
 
     .projectDot {
         margin-top: -20px;

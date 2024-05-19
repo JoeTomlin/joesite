@@ -76,7 +76,7 @@
   box-shadow: 4px 3px #f8f8ff;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 480px) {
   
   .body {
     display: flex;
