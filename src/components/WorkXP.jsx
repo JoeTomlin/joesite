@@ -1,11 +1,12 @@
 import React from 'react';
 import "./WorkXP.css";
+import XP_Dot from '../images/XP_Dot.png'
 
 const WorkXP = ({ handleMouseEnter, handleMouseLeave, hoveredElement }) => {
 
     return (
         <div>
-            <img className='xpDot' src="src/images/XP_Dot.png" alt="Work XP Header" />
+            <img className='xpDot' src={XP_Dot.png} alt="Work XP Header" />
             <a style={{textDecoration: 'none'}} href="https://www.deputy.com/" target='_blank'>
                 <div className={hoveredElement === 'deputy' ? 'card hovered' : 'card'} onMouseEnter={() => handleMouseEnter('deputy')} onMouseLeave={handleMouseLeave}>
                     <div className='header'>

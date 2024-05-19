@@ -1,11 +1,12 @@
 import React from 'react';
 import "./Projects.css";
+import Projects_Dot from "../images/Projects_Dot.png"
 
 const Projects = ({ handleMouseEnter, handleMouseLeave, hoveredElement }) => {
 
     return (
         <div className='projects'>
-            <img className='projectDot' src="src/images/Projects_Dot.png" alt="Projects Header" />
+            <img className='projectDot' src={Projects_Dot} alt="Projects Header" />
             <a style={{textDecoration: 'none'}} href="https://github.com/CloudedEevee/PokeShelter" target='_blank' className='pokeshelter'>
                 <div className={hoveredElement === 'pokeshelter' ? 'card hovered' : 'card'} onMouseEnter={() => handleMouseEnter('pokeshelter')} onMouseLeave={handleMouseLeave}>
                     <h3>POKESHELTER</h3>
