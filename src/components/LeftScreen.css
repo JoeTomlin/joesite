@@ -1,4 +1,4 @@
-.leftSide {
+.leftScreen {
     padding-right: 50px;
     padding-left: 37px;
     background-color: #011b4f;
@@ -25,9 +25,15 @@
     margin-top: 10px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1020px) {
   
-    .leftSide {
+    .leftScreen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 0;
         padding-right: 0px;
         padding-left: 0px;
         background-color: #011b4f;

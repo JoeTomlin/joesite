@@ -49,7 +49,7 @@
     box-shadow: 2px 2px ghostwhite;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1020px) {
 
     .xpDot {
         margin-top: 0px;

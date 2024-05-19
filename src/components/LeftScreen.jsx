@@ -10,7 +10,7 @@ import dotted_joe from '../images/dotted_joe.png'
 const Left = () => {
 
     return (
-        <div className='leftSide'>
+        <div className='leftScreen'>
             <img className='dotBackground' src={Background_Title} alt="Joe Tomlin Title" />
             <div className='mediaLinks'>
                 <a href="https://github.com/JoeTomlin" target='_blank' className='icon'><img src={github_logo} alt="Joe's GitHub" className='icon' /></a>
