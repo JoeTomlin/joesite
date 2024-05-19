@@ -1,17 +1,23 @@
 import React from 'react';
 import "./LeftScreen.css";
+import Background_Title from '../images/Background_Title.png'
+import github_logo from '../images/github_logo.png'
+import linkedin_logo from '../images/linkedin_logo.png'
+import instagram_logo from '../images/instagram_logo.png'
+import dotted_joe from '../images/dotted_joe.png'
+
 
 const Left = () => {
 
     return (
         <div className='leftSide'>
-            <img className='dotBackground' src="src/images/Background_Title.png" alt="Joe Tomlin Title" />
+            <img className='dotBackground' src={Background_Title} alt="Joe Tomlin Title" />
             <div className='mediaLinks'>
-                <a href="https://github.com/JoeTomlin" target='_blank' className='icon'><img src="src/images/github_logo.png" alt="Joe's GitHub" className='icon' /></a>
-                <a href="https://www.linkedin.com/in/josephtomlin/" target='_blank' className='icon'><img src="src/images/linkedin_logo.png" alt="Joe's LinkedIn" className='icon' /></a>
-                <a href="https://www.instagram.com/jouktomlin/" target='_blank' className='icon'><img src="src/images/instagram_logo.png" alt="Joe's Insta" className='icon'/></a>
+                <a href="https://github.com/JoeTomlin" target='_blank' className='icon'><img src={github_logo} alt="Joe's GitHub" className='icon' /></a>
+                <a href="https://www.linkedin.com/in/josephtomlin/" target='_blank' className='icon'><img src={linkedin_logo} alt="Joe's LinkedIn" className='icon' /></a>
+                <a href="https://www.instagram.com/jouktomlin/" target='_blank' className='icon'><img src={instagram_logo} alt="Joe's Insta" className='icon'/></a>
             </div>
-            <img className='profile' src="src/images/dotted_joe.png" alt="Pic of Joe" />
+            <img className='profile' src={dotted_joe} alt="Pic of Joe" />
         </div>
     )
 }
