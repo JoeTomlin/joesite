@@ -91,10 +91,12 @@
     justify-content: center;
     position: relative;
     top: 0;
+    width: auto !important;
   }
 
   .rightSide {
     margin-left: 0%;
+    width: auto !important;
   }
 
   .circle {
