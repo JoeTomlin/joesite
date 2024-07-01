@@ -1,12 +1,23 @@
-#root {
-  margin: 0 auto;
-  padding: 5rem;
-  color: ghostwhite;
-  font-family: "verdana", sans-serif;
-}
-
 .body {
   display: flex;
+  flex-direction: column;
+  width: auto !important;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  width: auto !important;
+}
+
+.rightSide {
+  margin-left: 0%;
+  width: auto !important;
+  padding: 2rem;
 }
 
 .circle {
@@ -21,54 +32,12 @@
   z-index: 99999999;
 }
 
-.leftSide {
-  position: fixed;
-  top: 0;
-}
-
-.rightSide {
-  margin-left: 50%;
-}
-
-.hidden {
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateX(-50%);
-  transition: all 1s;
-  text-decoration-line: none !important;
-}
-
-.show {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
-  text-decoration-line: none !important;
-}
-
 .card {
-  margin-top: 30px;
-  padding: 15px;
+  width: auto;
   border-radius: 10px 10px 10px 10px;
   transition: background-color 0.2s, box-shadow 0.2s;
   color: ghostwhite;
   text-decoration-line: none !important;
-}
-
-.hovered {
-  background-color: #693ac6;
-  box-shadow: 4px 3px #f8f8ff;
-}
-
-.about {
-  z-index: 2;
-}
-
-.projects {
-  z-index: 3;
-}
-
-.workXP {
-  z-index: 1;
 }
 
 .hiddenButton {
@@ -76,14 +45,24 @@
   box-shadow: 4px 3px #f8f8ff;
 }
 
-@media screen and (max-width: 1020px) {
-  
-  .body {
-    display: flex;
-    flex-direction: column;
-    width: auto !important;
-  }
-  
+@media all and (max-width: 1020px) {
+
+  .circle {
+  height: 0%;
+  width: 0%;
+  border-radius: 0%;
+  background-color: black;
+  position: fixed; 
+  top: 0 !important;
+  left: 0 !important; 
+  pointer-events: none;
+  z-index: 99999999;
+}
+
+}
+
+@media all and (min-width: 1020px) {
+
   .leftSide {
     display: flex;
     flex-direction: column;
@@ -91,18 +70,13 @@
     justify-content: center;
     position: relative;
     top: 0;
-    width: auto !important;
-  }
-
-  .rightSide {
-    margin-left: 0%;
-    width: auto !important;
-  }
+    width: 50% !important;
+  } 
 
   .circle {
-    height: 0%;
-    width: 0%;
-    border-radius: 0%;
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
     background-color: black;
     position: fixed; 
     top: 0;
@@ -110,13 +84,60 @@
     pointer-events: none;
     z-index: 99999999;
   }
-
-  .card > h3 {
-    font-size: 160%;
+  
+  .leftSide {
+    position: fixed;
+    top: 0;
   }
-
-  .card > p {
-    font-size: 145%;
+  
+  .rightSide {
+    margin-left: 50%;
+  }
+  
+  .hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-50%);
+    transition: all 1s;
+    text-decoration-line: none !important;
+  }
+  
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    text-decoration-line: none !important;
+  }
+  
+  .card {
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    color: ghostwhite;
+    text-decoration-line: none !important;
+  }
+  
+  .hovered {
+    background-color: #693ac6;
+    box-shadow: 4px 3px #f8f8ff;
+  }
+  
+  .about {
+    z-index: 2;
+  }
+  
+  .projects {
+    z-index: 3;
+  }
+  
+  .workXP {
+    z-index: 1;
+  }
+  
+  .hiddenButton {
+    background-color: #693ac6;
+    box-shadow: 4px 3px #f8f8ff;
   }
 
 }

@@ -1,27 +1,26 @@
-.footerBody {
-    margin-top: 200px;
-}
-
 .p {
     margin-top: 0%;
-    margin-left: 25%;
     margin-bottom: 0%;
     font-family: Helvetica, sans-serif;
     color: darkgray;
     font-weight: lighter;
-    font-size: smaller;
+    font-size: 80%;
 }
 
-@media screen and (max-width: 1020px) {
+@media all and (min-width: 1020px) {
 
+    .footerBody {
+        margin-top: 200px;
+    }
+    
     .p {
         margin-top: 0%;
-        margin-left: 22%;
+        margin-left: 25%;
         margin-bottom: 0%;
         font-family: Helvetica, sans-serif;
         color: darkgray;
         font-weight: lighter;
-        font-size: 110%;
+        font-size: smaller;
     }
 
-  }
+}

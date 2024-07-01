@@ -6,6 +6,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+  color: ghostwhite;
+  font-family: "verdana", sans-serif;
 }
 
 body {

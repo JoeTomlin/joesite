@@ -1,80 +1,69 @@
-.projects {
-    background-color: #011b4f
-}
-
 .xpDot {
     margin-top: 0px;
-    margin-bottom: -100px;
     margin-left: -25px;
-    width: 400px;
+    width: 100%;
     z-index: 1;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.company {
-    font-style: italic;
-    font-weight: bold;
-}
-
-.timeline {
-    height: min-content;
-    padding: 6px 8px 6px 8px;
-    margin: 9px;
-    background-color: #FF4AA8;
-    border-radius: 10px 10px 10px 10px;
-    font-style: italic;
-    font-weight: bold;
 }
 
 #fullResume { 
     display: flex;
     justify-content: center;
     z-index: 9;
-    margin-top: 10px; 
-    border-radius: 10px 10px 10px 10px;
-    padding: 9px;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 50%; 
+    border-radius: 15px 15px 15px 15px;
+    padding: 18px;
     cursor: pointer;
-
 
     color: ghostwhite;
     background-color: #693ac6;
     font-style: italic;
     font-weight: bold;
+    font-size: 20px;
     border-style: none;
-    box-shadow: 2px 2px ghostwhite;
+    box-shadow: 3px 3px ghostwhite;
 }
 
-@media screen and (max-width: 1020px) {
+@media all and (min-width: 1020px) {
 
     .xpDot {
         margin-top: 0px;
         margin-bottom: -100px;
         margin-left: -25px;
-        width: 80%;
+        width: 400px;
         z-index: 1;
     }
-
-    .header > div > h3 {
-        font-size: 160%;
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
-
-    .header > div > p {
-        font-size: 145%;
+    
+    .company {
+        font-style: italic;
+        font-weight: bold;
     }
-
+    
+    .timeline {
+        height: min-content;
+        padding: 6px 8px 6px 8px;
+        margin: 9px;
+        background-color: #FF4AA8;
+        border-radius: 10px 10px 10px 10px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
     #fullResume { 
         display: flex;
         justify-content: center;
         z-index: 9;
-        width: 80%;
         margin-top: 10px; 
-        border-radius: 15px 15px 15px 15px;
-        padding: 18px;
+        margin-bottom: 5%; 
+        border-radius: 10px 10px 10px 10px;
+        padding: 9px;
         cursor: pointer;
     
     
@@ -82,9 +71,8 @@
         background-color: #693ac6;
         font-style: italic;
         font-weight: bold;
-        font-size: 20px;
         border-style: none;
-        box-shadow: 3px 3px ghostwhite;
+        box-shadow: 2px 2px ghostwhite;
     }
-
+    
 }
