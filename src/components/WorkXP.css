@@ -1,8 +1,18 @@
 .xpDot {
     margin-top: 0px;
     margin-left: -25px;
+    margin-bottom: -40px;
     width: 100%;
     z-index: 1;
+}
+
+.header {
+    margin-top: 15%;
+}
+
+.company {
+    font-style: italic;
+    font-weight: bold;
 }
 
 #fullResume { 
