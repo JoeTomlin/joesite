@@ -7,6 +7,18 @@ const WorkXP = ({ handleMouseEnter, handleMouseLeave, hoveredElement }) => {
     return (
         <div>
             <img className='xpDot' src={XP_Dot} alt="Work XP Header" />
+            <a style={{textDecoration: 'none'}} href="https://www.flapjack.co/" target='_blank'>
+                <div className={hoveredElement === 'flapjack' ? 'card hovered' : 'card'} onMouseEnter={() => handleMouseEnter('flapjack')} onMouseLeave={handleMouseLeave}>
+                    <div className='header'>
+                        <div>
+                            <h3>FULL STACK SOFTWARE ENGINEER</h3>
+                            <p className='company'>FLAPJACK.CO</p>
+                        </div>
+                        <p className='timeline' >2024-2025</p>
+                    </div>
+                    <p>Wrote full-stack solutions for product bugs and features utilitizing Typescript, Node, and Supabase.</p>
+                </div>
+            </a>
             <a style={{textDecoration: 'none'}} href="https://www.deputy.com/" target='_blank'>
                 <div className={hoveredElement === 'deputy' ? 'card hovered' : 'card'} onMouseEnter={() => handleMouseEnter('deputy')} onMouseLeave={handleMouseLeave}>
                     <div className='header'>
